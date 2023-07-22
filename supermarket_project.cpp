@@ -278,7 +278,7 @@ void shop:: receipt()
     int arrq[1000];
     char choice;
     int c=0;
-    float amount;
+    float amount=0;
     float dis=0;
     float total=0;
 
@@ -331,13 +331,14 @@ void shop:: receipt()
                     dis=amount-(amount*dis/100);
                     total=total+dis;
                     cout<<"\n"<<pcode<<"\t\t"<<pname<<"\t\t"<<arrq[i]<<"\t\t"<<price<<"\t"<<amount<<"\t\t"<<dis;
-
+                    break;
 
                 }
                 data>>pcode>>pname>>price>>dis;
             }
-        }
+        
         data.close();
+        }
     }
     cout<<"\n\n";
     cout<<"\t\t Total amount= "<<total;
