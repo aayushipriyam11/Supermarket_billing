@@ -3,7 +3,7 @@ The supermarket billing system is made using the concepts of object oriented pro
 
 ---
 
-# Project Information
+## Project Information
 
 This billing system works at both the administrator's as well as the customer's end.
 
@@ -16,7 +16,7 @@ This billing system works at both the administrator's as well as the customer's 
 
 ---
 
-#  Working & Demonstration
+##  Working & Demonstration
 As a guide a txt file named Working_demo with the proper images of input and output has been added in the repository.
 
 ---
